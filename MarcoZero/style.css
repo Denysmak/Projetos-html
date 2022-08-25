@@ -24,11 +24,19 @@ header{
     width: 100%;
     justify-content: center;
 }
+header h1{
+  color: red;
+}
+span{
+  color: blue;
+}
 
   h1 {
       text-align: center;
-      font-size: 2.5rem;;
+      font-size: 2.5rem;
+    
   }
+
   .guarda-chuva{
     width: 40px;
     height: 40px;
