@@ -62,11 +62,24 @@ span{
     background-image: url(./imagens/Praca-do-Maraco-Zero-Rosa-dos-Ventos-Abre-600x480.webp);
     width: 50%;
   }
+  .image{
+    background-image: url(./imagens/a86fed70-74bf-0135-9f10-6231c35b6685--minified.jpg);
+    width: 50%;
+  }
+  .texto{
+    width: 50%;
+    padding:10px;
+  }
+  .fTexto{
+    display: flex;
+  }
+
   .fazer{
+    margin-top: 50px;
     position: relative;
     animation-name: rightLeft;
     animation-duration: 2s;
-    padding: 10px;
+  
   }
   .fazer p{
     margin-bottom: 50px;
