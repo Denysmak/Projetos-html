@@ -1,0 +1,122 @@
+  body {
+      height: fit-content;
+      margin: 0%;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+main{
+    width: 98%;
+    max-width: 1000px;
+
+ 
+    
+}
+
+header{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(62, 62, 62);
+    width: 100%;
+    justify-content: center;
+}
+
+  h1 {
+      text-align: center;
+      font-size: 2.5rem;;
+  }
+  .guarda-chuva{
+    width: 40px;
+    height: 40px;
+  }
+  .historia{
+    position: relative;
+    animation-name: leftRight;
+    animation-duration: 2s;
+    display: flex;
+    
+  }
+  .hTexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding:10px;
+  }
+  .hTexto p{
+    font-size: 0.8rem;
+  }
+  .hImg{
+    background-image: url(./imagens/Praca-do-Maraco-Zero-Rosa-dos-Ventos-Abre-600x480.webp);
+    width: 50%;
+  }
+  .fazer{
+    position: relative;
+    animation-name: rightLeft;
+    animation-duration: 2s;
+    padding: 10px;
+  }
+  .fazer p{
+    margin-bottom: 50px;
+  }
+  .maisInf{
+    position: relative;
+    animation-name: aparecer;
+    animation-duration: 2s;
+  }
+  li{
+    margin: 10px;
+    width: fit-content;
+  }
+  footer{
+    width: 100%;
+  }
+  .content{
+    display: flex;
+    position: relative;
+  }
+  a{
+    background-color: white;
+    border-radius: 12px;
+    color: blue;
+    text-decoration: none;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    height: 25px;
+    outline: 0;
+    border: 0;
+  }
+  @keyframes leftRight{
+    0%{
+        left: -900px;
+        opacity: 0;
+    }
+    100%{
+        left: 0%;
+        opacity: 1;
+    }
+  }
+   @keyframes rightLeft {
+       0% {
+           left: 1000px;
+           opacity: 0;
+       }
+       100% {
+           left: 0%;
+           opacity: 1;
+       }
+   }
+   @keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+   }
